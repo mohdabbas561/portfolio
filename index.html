@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .nav {
+            display: flex;
+            background-color: black;
+            position: sticky;
+            top: 0;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            justify-content: flex-end;
+        }
+
+        .nav a:hover {
+            background-color: white;
+            color: black;
+            transition: all 0.7s;
+        }
+
+        .header {
+            background: url(portimg.jpg) no-repeat center center fixed;
+            background-size: cover;
+            padding: 200px 100px;
+            background-attachment: scroll;
+            color: white;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        .h4 {
+            color: red;
+            font-size: 25px;
+        }
+
+        div.img-container1 {
+            width: 33.33%;
+            float: left;
+            padding: 15px 30px;
+            background-color: white;
+            box-shadow: 0 10px 15px black;
+            margin-top: 70px;
+
+        }
+
+        div.img-container2 {
+            width: 33.33%;
+            float: left;
+            padding: 15px 30px;
+            background-color: white;
+            box-shadow: 0 10px 15px black;
+            margin-top: 70px;
+
+        }
+
+        div.img-container3 {
+            width: 33.33%;
+            float: left;
+            padding: 15px 30px;
+            background-color: white;
+            box-shadow: 0 10px 15px black;
+            margin-top: 70px;
+        }
+
+        div.desc {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+        }
+
+        .desc a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        h2 {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 15px 30px;
+            margin-top: 40px;
+        }
+
+        @media screen and (max-width: 700px) {
+
+            div.img-container1,
+            div.img-container2,
+            div.img-container3{
+                width: 100%
+            }
+        }
+        .footer {
+            background-color: black;
+            padding: 150px 100px;
+            font-size: 30px;
+            margin-top: 190px;
+        }
+        .footer h1{
+            text-align: center;
+            color: white;
+        }
+        .footer h3{
+            text-align: center;
+            color: red;
+            font-style: italic;
+        }
+
+        .fa {
+            font-size: 30px;
+            width: 30%;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 37%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            padding: 20px 10px;
+        }
+        .fa-instagram {
+            background: #bb0000;
+            color: white;
+            padding: 20px 10px;
+            margin-top: 20px;
+        }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            padding: 20px 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="#">About</a>
+        <a href="#">Work</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="header">
+        <h1>Hey I am Abbas</h1>
+        <h4 class="h4">a web developer</h4>
+    </div>
+    <h2>Here Are Some Of My Projects</h2>
+    <div class="img-container1">
+        <a target="_blank" href="https://mohdabbas561.github.io/netflix/">
+            <img src="netflix.JPG" alt="img" style="width: 100%;">
+        </a>
+        <div class="desc">
+            <a target="_blank" href="https://mohdabbas561.github.io/netflix/">Netflix Landing Page</a>
+        </div>
+
+    </div>
+    <div class="img-container2">
+        <a target="_blank" href="https://mohdabbas561.github.io/abbas/">
+            <img src="signuplogin.PNG" alt="img" style="width: 100%;">
+        </a>
+        <div class="desc">
+            <a target="_blank" href="https://mohdabbas561.github.io/abbas/">Login And Signup Page</a>
+        </div>
+
+    </div>
+    <div class="img-container3">
+        <a target="_blank" href="https://mohdabbas561.github.io/myweb/">
+            <img src="biodata.JPG" alt="img" style="width: 100%;">
+        </a>
+        <div class="desc">
+            <a target="_blank" href="https://mohdabbas561.github.io/myweb/">My Interest And Knowledge</a>
+        </div>
+    </div>
+    <br>
+    <div class="footer">
+        <h1>Lets Work Together....</h1>
+        <h3>How do you take your free Cofee xddd?</h3>
+        <a target="_blank" href="https://www.facebook.com/GeekyAbbass" class="fa fa-facebook"></a>
+        <a target="_blank" href="https://twitter.com/_Mohd_Abbas_" class="fa fa-twitter"></a>
+        <a target="_blank" href="https://www.instagram.com/mohd.abbas_/" class="fa fa-instagram"></a>
+    </div>
+</body>
+
+</html>
